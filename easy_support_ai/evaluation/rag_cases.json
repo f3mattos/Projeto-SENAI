@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Como redefinir a minha senha corporativa?",
+    "expected_source": "politica_senhas.md",
+    "must_abstain": false
+  },
+  {
+    "question": "Quais são as regras de complexidade para a nova senha?",
+    "expected_source": "politica_senhas.md",
+    "must_abstain": false
+  },
+  {
+    "question": "O que fazer se o servidor principal de produção cair?",
+    "expected_source": "indisponibilidade_sistema.md",
+    "must_abstain": false
+  },
+  {
+    "question": "Como exportar relatórios em formato CSV?",
+    "expected_source": "exportacao_relatorios.md",
+    "must_abstain": false
+  },
+  {
+    "question": "Qual é a política de SLA para chamados de prioridade alta?",
+    "expected_source": "politica_escalonamento.md",
+    "must_abstain": false
+  },
+  {
+    "question": "Qual é o prazo máximo de primeiro atendimento para dúvidas baixas?",
+    "expected_source": "politica_escalonamento.md",
+    "must_abstain": false
+  },
+  {
+    "question": "Qual o limite de linhas para exportações em formato CSV?",
+    "expected_source": "exportacao_relatorios.md",
+    "must_abstain": false
+  },
+  {
+    "question": "Como acionar o time de SRE em caso de queda do sistema de vendas?",
+    "expected_source": "indisponibilidade_sistema.md",
+    "must_abstain": false
+  },
+  {
+    "question": "Qual é a cotação do dólar hoje pela manhã?",
+    "expected_source": null,
+    "must_abstain": true
+  },
+  {
+    "question": "Como agendar férias no portal de recursos humanos?",
+    "expected_source": null,
+    "must_abstain": true
+  }
+]
